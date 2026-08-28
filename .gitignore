@@ -1,0 +1,14 @@
+# Raw data (too large / redistribute-restricted — download from Kaggle instead)
+data/*.csv
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+*.pyc
+__pycache__/
+
+# Env files
+.env
