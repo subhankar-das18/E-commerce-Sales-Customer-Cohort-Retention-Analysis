@@ -1,4 +1,4 @@
-# Olist E-Commerce Sales & Customer Cohort Analysis
+# Olist E-Commerce Sales & Customer Cohort Analysis    
 
 SQL-driven analysis of ~100K real e-commerce orders from Olist, a Brazilian
 online marketplace, to identify revenue drivers, customer retention
