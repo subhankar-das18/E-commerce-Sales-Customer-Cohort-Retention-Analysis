@@ -56,7 +56,7 @@ placeholders below)*
 - `CASE`-based bucketing for delay severity
 - Date/time arithmetic (`DATE_TRUNC`, `EXTRACT`, `AGE`)
 
-## Repo Structure
+## Repo Structure    
 
 ```
 olist-ecommerce-analysis/
