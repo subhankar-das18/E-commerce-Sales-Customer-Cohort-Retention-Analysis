@@ -33,7 +33,7 @@ around category investment, retention strategy, and logistics.
   from the dataset entirely
 - Mapped Portuguese product categories to English via the translation table
 - Checked for and excluded zero/negative payment values as data errors
-- Flagged delivery times >100 days as outliers for review
+- Flagged delivery times >100 days as outliers for review   
 
 ## Key Business Questions & Insights
 
