@@ -23,7 +23,7 @@ FROM olist_orders_dataset
 -- 3. Duplicate order_items are EXPECTED (multi-item orders) — confirm
 --    the grain is (order_id, order_item_id), not just order_id
 SELECT order_id, COUNT(*) AS num_items
-FROM order_items
+FROM olist_order_items_dataset
 GROUP BY order_id
 HAVING COUNT(*) > 1
 ORDER BY num_items DESC
