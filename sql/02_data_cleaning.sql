@@ -31,7 +31,7 @@ LIMIT 10;
 
 -- 4. Products missing an English category translation
 SELECT p.product_category_name, COUNT(*) AS num_products
-FROM products p
+FROM olist_products_dataset p
 LEFT JOIN product_category_name_translation t
     ON p.product_category_name = t.product_category_name
 WHERE t.product_category_name_english IS NULL
