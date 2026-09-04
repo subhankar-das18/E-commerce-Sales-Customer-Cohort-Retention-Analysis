@@ -18,7 +18,7 @@ SELECT
     COUNT(*) FILTER (WHERE order_delivered_customer_date IS NULL) AS null_delivered_date,
     COUNT(*) FILTER (WHERE order_approved_at IS NULL) AS null_approved_at,
     COUNT(*) AS total_orders
-FROM orders;
+FROM olist_orders_dataset
 
 -- 3. Duplicate order_items are EXPECTED (multi-item orders) — confirm
 --    the grain is (order_id, order_item_id), not just order_id
