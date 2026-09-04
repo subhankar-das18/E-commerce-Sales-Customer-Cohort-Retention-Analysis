@@ -47,7 +47,7 @@ SELECT order_id,
        order_purchase_timestamp,
        order_delivered_customer_date,
        order_delivered_customer_date - order_purchase_timestamp AS delivery_time
-FROM orders
+FROM olist_orders_dataset
 WHERE order_delivered_customer_date IS NOT NULL
   AND (order_delivered_customer_date - order_purchase_timestamp) > INTERVAL '100 days'
 ORDER BY delivery_time DESC;
