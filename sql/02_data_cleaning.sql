@@ -39,7 +39,7 @@ GROUP BY p.product_category_name;
 
 -- 5. Outlier check: zero or negative payment values
 SELECT *
-FROM order_payments
+FROM olist_order_payments_dataset
 WHERE payment_value <= 0;
 
 -- 6. Outlier check: unrealistic delivery times (e.g., > 100 days)
