@@ -38,7 +38,7 @@ around category investment, retention strategy, and logistics.
 ## Key Business Questions & Insights
 
 *(fill in with your actual numbers once you run the queries — see
-placeholders below)*
+placeholders below)*   
 
 - Top 5 product categories contributed to **X%** of total revenue
 - Customers from **[state]** had the highest repeat purchase rate (**X%**)
