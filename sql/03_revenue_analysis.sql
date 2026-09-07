@@ -11,7 +11,7 @@ SELECT
     ROUND(100.0 * SUM(oi.price) / SUM(SUM(oi.price)) OVER (), 2) AS pct_of_total_revenue
 FROM olist_order_items_dataset oi
 JOIN olist_orders_dataset o ON oi.order_id = o.order_id
-JOIN products p ON oi.product_id = p.product_id
+JOIN olist_products_dataset p ON oi.product_id = p.product_id
 JOIN product_category_name_translation t
     ON p.product_category_name = t.product_category_name
 WHERE o.order_status NOT IN ('canceled', 'unavailable')
