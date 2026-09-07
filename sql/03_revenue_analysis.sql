@@ -9,7 +9,7 @@ SELECT
     COUNT(DISTINCT oi.order_id) AS num_orders,
     ROUND(SUM(oi.price) / COUNT(DISTINCT oi.order_id), 2) AS avg_order_value,
     ROUND(100.0 * SUM(oi.price) / SUM(SUM(oi.price)) OVER (), 2) AS pct_of_total_revenue
-FROM order_items oi
+FROM olist_order_items_dataset oi
 JOIN orders o ON oi.order_id = o.order_id
 JOIN products p ON oi.product_id = p.product_id
 JOIN product_category_name_translation t
@@ -17,7 +17,7 @@ JOIN product_category_name_translation t
 WHERE o.order_status NOT IN ('canceled', 'unavailable')
 GROUP BY t.product_category_name_english
 ORDER BY total_revenue DESC
-LIMIT 10;
+LIMIT 10
 
 -- Revenue trend with rolling average + month-over-month growth
 WITH monthly_revenue AS (
