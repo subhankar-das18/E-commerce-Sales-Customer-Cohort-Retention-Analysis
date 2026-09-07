@@ -24,8 +24,8 @@ WITH monthly_revenue AS (
     SELECT
         DATE_TRUNC('month', o.order_purchase_timestamp) AS month,
         SUM(oi.price) AS revenue
-    FROM orders o
-    JOIN order_items oi ON o.order_id = oi.order_id
+    FROM olist_orders_dataset o
+    JOIN olist_order_items_dataset oi ON o.order_id = oi.order_id
     WHERE o.order_status NOT IN ('canceled', 'unavailable')
     GROUP BY 1
 )
