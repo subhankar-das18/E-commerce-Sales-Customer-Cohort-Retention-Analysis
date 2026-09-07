@@ -10,7 +10,7 @@ SELECT
     ROUND(SUM(oi.price) / COUNT(DISTINCT oi.order_id), 2) AS avg_order_value,
     ROUND(100.0 * SUM(oi.price) / SUM(SUM(oi.price)) OVER (), 2) AS pct_of_total_revenue
 FROM olist_order_items_dataset oi
-JOIN orders o ON oi.order_id = o.order_id
+JOIN olist_orders_dataset o ON oi.order_id = o.order_id
 JOIN products p ON oi.product_id = p.product_id
 JOIN product_category_name_translation t
     ON p.product_category_name = t.product_category_name
