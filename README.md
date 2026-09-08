@@ -36,16 +36,15 @@ around category investment, retention strategy, and logistics.
 - Flagged delivery times >100 days as outliers for review   
 
 ## Key Business Questions & Insights
+Revenue is concentrated but not monopolized by a few categories. The top 10 product categories drove ~63% of total revenue. Health & Beauty (9.4%), Watches/Gifts (9.0%), and Bed/Bath/Table (7.8%) led the pack — notably, Watches/Gifts had the highest average order value ($213.81) despite ~40% fewer orders than the top category, marking it as a smaller but higher-ticket segment.
 
-*(fill in with your actual numbers once you run the queries — see
-placeholders below)*   
+Revenue grew steadily through 2017 before plateauing in 2018. Monthly revenue climbed from ~$120K (Jan 2017) to a peak of over $1M (Nov 2017), then settled into a plateau of ~$850K–$990K/month through mid-2018. (Note: 2016 data reflects Olist's soft launch — near-zero volume — and Sept 2018 is a partial month due to the dataset's cutoff; both are excluded from trend claims.)
 
-- Top 5 product categories contributed to **X%** of total revenue
-- Customers from **[state]** had the highest repeat purchase rate (**X%**)
-- Repeat customers had an average lifetime value **X% higher** than
-  one-time buyers
-- Late deliveries were concentrated in **[region]**; average delay was
-  **X days** vs. **Y days** nationally
+Retention is the single biggest finding: only 3% of customers ever make a second purchase. Month-1 retention sits under 1% for every cohort analyzed, holding steady out to 11 months post-first-purchase. Confirmed independently via customer-level analysis: 97% of customers (92,168) were one-time buyers, while the 3% who returned (2,853 customers) had an average lifetime value of $260.11 — 88% higher than the $138.36 average for one-time buyers. Olist's revenue growth is being driven almost entirely by new customer acquisition, not repeat purchases.
+
+Repeat-purchase rate varies modestly by state, with Rio de Janeiro the standout among high-volume states. RJ had a 3.40% repeat rate across 12,384 customers — ahead of São Paulo's 3.22% despite SP having 3x the customer base. (Acre and Rondônia technically ranked higher, but with only 77 and 240 customers respectively, RJ is the more statistically credible leader.)
+
+Delivery performance is strong overall but geographically uneven. 91.9% of all orders arrive on time or early, and when delays occur they tend to be severe rather than marginal — 3.47% of orders arrive 8+ days late, more than the 1–7 day late buckets combined. Northeastern states carry the worst performance: Alagoas has both the longest average delivery time (24.5 days) and the highest late rate (23.9%) — over 4x São Paulo's 5.89% late rate, despite SP shipping 100x the volume in less than half the time (8.8 days avg). Among major cities, Salvador (Bahia) stands out with a 17.51% late rate — nearly 3x São Paulo's 6.26% — despite being only the 8th-largest city by order volume.
 
 ## Techniques Demonstrated
 
