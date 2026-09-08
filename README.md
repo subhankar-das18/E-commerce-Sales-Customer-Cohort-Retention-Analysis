@@ -37,6 +37,7 @@ around category investment, retention strategy, and logistics.
 
 ## Key Business Questions & Insights
 Revenue is concentrated but not monopolized by a few categories. The top 10 product categories drove ~63% of total revenue. Health & Beauty (9.4%), Watches/Gifts (9.0%), and Bed/Bath/Table (7.8%) led the pack — notably, Watches/Gifts had the highest average order value ($213.81) despite ~40% fewer orders than the top category, marking it as a smaller but higher-ticket segment.
+![Monthly Revenue Trend](images/revenue_trend.png)
 
 Revenue grew steadily through 2017 before plateauing in 2018. Monthly revenue climbed from ~$120K (Jan 2017) to a peak of over $1M (Nov 2017), then settled into a plateau of ~$850K–$990K/month through mid-2018. (Note: 2016 data reflects Olist's soft launch — near-zero volume — and Sept 2018 is a partial month due to the dataset's cutoff; both are excluded from trend claims.)
 
