@@ -4,3 +4,4 @@ Drop chart screenshots here (e.g. `cohort_heatmap.png`, `revenue_trend.png`,
 ```markdown
 ![Cohort Retention Heatmap](images/cohort_heatmap.png)
 ```
+![Monthly Revenue Trend](images/revenue_trend.png)
