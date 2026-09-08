@@ -46,7 +46,7 @@ SELECT
     END AS delay_bucket,
     COUNT(*) AS num_orders,
     ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER (), 2) AS pct_of_orders
-FROM orders
+FROM olist_orders_dataset
 WHERE order_status = 'delivered' AND order_delivered_customer_date IS NOT NULL
 GROUP BY delay_bucket
-ORDER BY num_orders DESC;
+ORDER BY num_orders DESC
