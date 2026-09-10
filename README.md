@@ -106,4 +106,3 @@ WITH first_purchase AS (
 -- full query in sql/04_cohort_analysis.sql
 ```
 
-*(Add a screenshot of the resulting cohort heatmap here once you've run it.)*
