@@ -91,7 +91,7 @@ olist-ecommerce-analysis/
 
 ## Tools
 
-PostgreSQL · *(add Tableau / Python+matplotlib / Power BI once you pick one)*
+PostgreSQL · *(used Tableau / Python+matplotlib )*
 
 ## Sample Query — Monthly Cohort Retention
 
