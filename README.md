@@ -48,6 +48,7 @@ Repeat-purchase rate varies modestly by state, with Rio de Janeiro the standout 
 Delivery performance is strong overall but geographically uneven. 91.9% of all orders arrive on time or early, and when delays occur they tend to be severe rather than marginal — 3.47% of orders arrive 8+ days late, more than the 1–7 day late buckets combined. Northeastern states carry the worst performance: Alagoas has both the longest average delivery time (24.5 days) and the highest late rate (23.9%) — over 4x São Paulo's 5.89% late rate, despite SP shipping 100x the volume in less than half the time (8.8 days avg). Among major cities, Salvador (Bahia) stands out with a 17.51% late rate — nearly 3x São Paulo's 6.26% — despite being only the 8th-largest city by order volume.
 ![Delivery Outcome Breakdown](images/delivery_outcome_breakdown.png)
 ![Late Delivery Rate by State](images/late_delivery_by_state.png)
+![Top Cities by Order Volume](images/top_cities_volume.png)
 
 ## Techniques Demonstrated
 
