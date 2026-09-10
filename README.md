@@ -44,7 +44,7 @@ Retention is the single biggest finding: only 3% of customers ever make a second
 ![Cohort Retention Heatmap](images/cohort_heatmap.png)           
 ![Repeat vs One-Time Customers](images/repeat_vs_onetime.png)
 Repeat-purchase rate varies modestly by state, with Rio de Janeiro the standout among high-volume states. RJ had a 3.40% repeat rate across 12,384 customers — ahead of São Paulo's 3.22% despite SP having 3x the customer base. (Acre and Rondônia technically ranked higher, but with only 77 and 240 customers respectively, RJ is the more statistically credible leader.)
-
+![Repeat Purchase Rate by State](images/repeat_rate_by_state.png)
 Delivery performance is strong overall but geographically uneven. 91.9% of all orders arrive on time or early, and when delays occur they tend to be severe rather than marginal — 3.47% of orders arrive 8+ days late, more than the 1–7 day late buckets combined. Northeastern states carry the worst performance: Alagoas has both the longest average delivery time (24.5 days) and the highest late rate (23.9%) — over 4x São Paulo's 5.89% late rate, despite SP shipping 100x the volume in less than half the time (8.8 days avg). Among major cities, Salvador (Bahia) stands out with a 17.51% late rate — nearly 3x São Paulo's 6.26% — despite being only the 8th-largest city by order volume.
 
 ## Techniques Demonstrated
