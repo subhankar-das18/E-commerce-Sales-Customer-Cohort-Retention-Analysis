@@ -3,7 +3,7 @@
 SQL-driven analysis of ~100K real e-commerce orders from Olist, a Brazilian
 online marketplace, to identify revenue drivers, customer retention
 patterns, and delivery performance issues.    
-
+    
 ## Problem Statement      
 
 Analyze Olist's 2016–2018 order data to understand revenue drivers, customer
