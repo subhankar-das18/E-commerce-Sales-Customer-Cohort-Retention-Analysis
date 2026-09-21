@@ -28,7 +28,7 @@ around category investment, retention strategy, and logistics.
 
 **Cleaning steps** (see `sql/02_data_cleaning.sql`):
 - Converted all timestamp columns to proper datetime types on load
-- Confirmed NULL delivery dates correspond to `canceled`/`unavailable`
+- Confirmed NULL delivery dates correspond to `canceled`/`unavailable`  
   orders — excluded from revenue and delivery analysis rather than dropped
   from the dataset entirely
 - Mapped Portuguese product categories to English via the translation table
