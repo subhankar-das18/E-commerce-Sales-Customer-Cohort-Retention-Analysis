@@ -12,7 +12,7 @@ around category investment, retention strategy, and logistics.
 
 ## Data
 
-**Source:** [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+**Source:** [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)   
 
 | Table | Rows (approx.) | Purpose |
 |---|---|---|
