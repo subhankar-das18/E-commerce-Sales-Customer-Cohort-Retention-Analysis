@@ -43,7 +43,7 @@ CREATE TABLE olist_products_dataset (
     product_width_cm            NUMERIC
 );
 
-CREATE TABLE orders (
+CREATE TABLE olist_orders_dataset (
     order_id                       VARCHAR PRIMARY KEY,
     customer_id                    VARCHAR REFERENCES customers(customer_id),
     order_status                   VARCHAR,
