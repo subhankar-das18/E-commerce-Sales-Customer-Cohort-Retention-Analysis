@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS order_reviews, order_payments, order_items,
     orders, products, customers, sellers, geolocation,
     product_category_name_translation CASCADE;
 
-CREATE TABLE customers (
+CREATE TABLE olist_customers_dataset (
     customer_id             VARCHAR PRIMARY KEY,
     customer_unique_id      VARCHAR,
     customer_zip_code_prefix VARCHAR,
