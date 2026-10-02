@@ -19,14 +19,14 @@ CREATE TABLE olist_customers_dataset (
     customer_state          VARCHAR
 );
 
-CREATE TABLE sellers (
+CREATE TABLE olist_sellers_dataset (
     seller_id               VARCHAR PRIMARY KEY,
     seller_zip_code_prefix  VARCHAR,
     seller_city             VARCHAR,
     seller_state            VARCHAR
 );
 
-CREATE TABLE product_category_name_translation (
+CREATE TABLE olist_product_category_name_translation_dataset (
     product_category_name          VARCHAR PRIMARY KEY,
     product_category_name_english  VARCHAR
 );
