@@ -65,7 +65,7 @@ CREATE TABLE olist_order_items_dataset (
     PRIMARY KEY (order_id, order_item_id)
 );
 
-CREATE TABLE order_payments (
+CREATE TABLE olist_order_payments_dataset (
     order_id              VARCHAR REFERENCES orders(order_id),
     payment_sequential    INT,
     payment_type          VARCHAR,
