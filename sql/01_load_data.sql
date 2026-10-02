@@ -84,7 +84,7 @@ CREATE TABLE olist_order_reviews_dataset (
     review_answer_timestamp   TIMESTAMP
 );
 
-CREATE TABLE geolocation (
+CREATE TABLE olist_geolocation_dataset (
     geolocation_zip_code_prefix VARCHAR,
     geolocation_lat             NUMERIC,
     geolocation_lng             NUMERIC,
