@@ -31,7 +31,7 @@ CREATE TABLE olist_product_category_name_translation_dataset (
     product_category_name_english  VARCHAR
 );
 
-CREATE TABLE products (
+CREATE TABLE olist_products_dataset (
     product_id                  VARCHAR PRIMARY KEY,
     product_category_name       VARCHAR,
     product_name_lenght         INT,
