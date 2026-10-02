@@ -74,7 +74,7 @@ CREATE TABLE olist_order_payments_dataset (
     PRIMARY KEY (order_id, payment_sequential)
 );
 
-CREATE TABLE order_reviews (
+CREATE TABLE olist_order_reviews_dataset (
     review_id                 VARCHAR,
     order_id                  VARCHAR REFERENCES orders(order_id),
     review_score              INT,
