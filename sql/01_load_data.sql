@@ -54,7 +54,7 @@ CREATE TABLE olist_orders_dataset (
     order_estimated_delivery_date  TIMESTAMP
 );
 
-CREATE TABLE order_items (
+CREATE TABLE olist_order_items_dataset (
     order_id             VARCHAR REFERENCES orders(order_id),
     order_item_id        INT,
     product_id           VARCHAR REFERENCES products(product_id),
