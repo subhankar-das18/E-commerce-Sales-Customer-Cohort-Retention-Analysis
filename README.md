@@ -18,7 +18,7 @@ around category investment, retention strategy, and logistics.
 |---|---|---|
 | `olist_orders_dataset` | 99,441 | Order status + all key timestamps |
 | `olist_customers_dataset` | 99,441 | Customer location, unique ID for repeat-purchase tracking |
-| `order_items` | 112,650 | Line-item price/freight, one row per item |
+| `olist_order_items_dataset` | 112,650 | Line-item price/freight, one row per item |
 | `products` | 32,951 | Product category + dimensions |
 | `order_payments` | 103,886 | Payment type/installments |
 | `order_reviews` | 99,224 | Review scores/comments |
