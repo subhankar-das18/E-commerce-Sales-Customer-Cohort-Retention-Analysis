@@ -16,8 +16,8 @@ around category investment, retention strategy, and logistics.
 
 | Table | Rows (approx.) | Purpose |
 |---|---|---|
-| `orders` | 99,441 | Order status + all key timestamps |
-| `customers` | 99,441 | Customer location, unique ID for repeat-purchase tracking |
+| `olist_orders_dataset` | 99,441 | Order status + all key timestamps |
+| `olist_customers_dataset` | 99,441 | Customer location, unique ID for repeat-purchase tracking |
 | `order_items` | 112,650 | Line-item price/freight, one row per item |
 | `products` | 32,951 | Product category + dimensions |
 | `order_payments` | 103,886 | Payment type/installments |
