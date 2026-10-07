@@ -24,7 +24,7 @@ around category investment, retention strategy, and logistics.
 | `olist_order_reviews_dataset` | 99,224 | Review scores/comments |
 | `olist_sellers_dataset` | 3,095 | Seller location |
 | `olist_geolocation_dataset` | ~1M | Zip-code-level lat/long |  
-| `product_category_name_translation` | 71 | PT → EN category mapping |
+| `olist_product_category_name_translation_dataset` | 71 | PT → EN category mapping |
 
 **Cleaning steps** (see `sql/02_data_cleaning.sql`):
 - Converted all timestamp columns to proper datetime types on load
