@@ -23,7 +23,7 @@ around category investment, retention strategy, and logistics.
 | `olist_order_payments_dataset` | 103,886 | Payment type/installments |
 | `olist_order_reviews_dataset` | 99,224 | Review scores/comments |
 | `olist_sellers_dataset` | 3,095 | Seller location |
-| `geolocation` | ~1M | Zip-code-level lat/long |  
+| `olist_geolocation_dataset` | ~1M | Zip-code-level lat/long |  
 | `product_category_name_translation` | 71 | PT → EN category mapping |
 
 **Cleaning steps** (see `sql/02_data_cleaning.sql`):
