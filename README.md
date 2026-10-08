@@ -99,8 +99,8 @@ PostgreSQL · *(used Tableau / Python+matplotlib )*
 WITH first_purchase AS (
     SELECT customer_unique_id,
            DATE_TRUNC('month', MIN(order_purchase_timestamp)) AS cohort_month
-    FROM orders o
-    JOIN customers c ON o.customer_id = c.customer_id
+    FROM olist_orders_dataset o
+    JOIN olist_customers_dataset c ON o.customer_id = c.customer_id
     GROUP BY customer_unique_id
 )
 -- full query in sql/04_cohort_analysis.sql
