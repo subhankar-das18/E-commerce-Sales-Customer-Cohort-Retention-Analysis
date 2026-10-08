@@ -95,7 +95,7 @@ PostgreSQL · *(used Tableau / Python+matplotlib )*
 
 ## Sample Query — Monthly Cohort Retention
 
-```sql
+```sql 
 WITH first_purchase AS (
     SELECT customer_unique_id,
            DATE_TRUNC('month', MIN(order_purchase_timestamp)) AS cohort_month
