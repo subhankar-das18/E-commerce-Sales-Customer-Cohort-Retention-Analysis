@@ -1,7 +1,7 @@
 # Data folder
 
 This folder is intentionally empty in the repo (the raw CSVs are too large
-and shouldn't be committed to GitHub).
+and shouldn't be committed to GitHub).  
 
 ## Setup
 
