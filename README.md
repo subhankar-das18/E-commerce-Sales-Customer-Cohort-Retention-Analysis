@@ -33,7 +33,7 @@ around category investment, retention strategy, and logistics.
   from the dataset entirely
 - Mapped Portuguese product categories to English via the translation table
 - Checked for and excluded zero/negative payment values as data errors
-- Flagged delivery times >100 days as outliers for review   
+- Flagged delivery times >100 days as outliers for review      
 
 ## Key Business Questions & Insights  
 Revenue is concentrated but not monopolized by a few categories. The top 10 product categories drove ~63% of total revenue. Health & Beauty (9.4%), Watches/Gifts (9.0%), and Bed/Bath/Table (7.8%) led the pack — notably, Watches/Gifts had the highest average order value ($213.81) despite ~40% fewer orders than the top category, marking it as a smaller but higher-ticket segment.
