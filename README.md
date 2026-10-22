@@ -50,7 +50,7 @@ Delivery performance is strong overall but geographically uneven. 91.9% of all o
 ![Late Delivery Rate by State](images/late_delivery_by_state.png)
 ![Top Cities by Order Volume](images/top_cities_volume.png)   
 
-## Techniques Demonstrated
+## Techniques Demonstrated   
 
 - Multi-table JOINs across up to 6 tables
 - CTEs for multi-stage aggregation
