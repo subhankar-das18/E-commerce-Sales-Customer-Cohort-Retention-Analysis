@@ -17,4 +17,4 @@ and shouldn't be committed to GitHub).
    - `olist_sellers_dataset.csv`
    - `olist_geolocation_dataset.csv`
    - `product_category_name_translation.csv`
-3. Run `sql/01_load_data.sql` from the repo root.
+3. Run `sql/01_load_data.sql` from the repo root.   
