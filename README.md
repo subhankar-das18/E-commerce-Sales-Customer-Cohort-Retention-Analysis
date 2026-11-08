@@ -26,7 +26,7 @@ around category investment, retention strategy, and logistics.
 | `olist_geolocation_dataset` | ~1M | Zip-code-level lat/long |  
 | `olist_product_category_name_translation_dataset` | 71 | PT → EN category mapping |
 
-**Cleaning steps** (see `sql/02_data_cleaning.sql`):
+**Cleaning steps** (see  `sql/02_data_cleaning.sql`):
 - Converted all timestamp columns to proper datetime types on load
 - Confirmed NULL delivery dates correspond to `canceled`/`unavailable`  
   orders — excluded from revenue and delivery analysis rather than dropped
