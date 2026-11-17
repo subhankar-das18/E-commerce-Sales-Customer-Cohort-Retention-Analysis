@@ -59,7 +59,7 @@ Delivery performance is strong overall but geographically uneven. 91.9% of all o
 - `CASE`-based bucketing for delay severity
 - Date/time arithmetic (`DATE_TRUNC`, `EXTRACT`, `AGE`)
 
-## Repo Structure             
+## Repo Structure               
    
 ```
 olist-ecommerce-analysis/
