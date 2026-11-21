@@ -10,7 +10,7 @@ Analyze Olist's 2016–2018 order data to understand revenue drivers, customer
 retention, and delivery performance in order to support business decisions
 around category investment, retention strategy, and logistics.
 
-## Data
+## Data  
 
 **Source:** [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)   
 
